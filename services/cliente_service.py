@@ -40,7 +40,7 @@ def atualizar_cliente():
 
 
 def remover_cliente():
-    id = input('ID:')
+    id = int(input('ID:'))
     encontrado = False
     for c in lista_clientes:
         if c.id == id:
