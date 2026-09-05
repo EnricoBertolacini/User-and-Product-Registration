@@ -41,4 +41,3 @@ def escolha_opcao_menu_principal():
         except ValueError:
             print('Digite uma opção válida')
 
-# FIM MENU PRINCIPAL
